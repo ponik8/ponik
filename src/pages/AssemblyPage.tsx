@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { orders as initialOrders, statusLabels, statusColors } from '../data/mockData';
-import { Package, CheckCircle, Clock, AlertCircle } from 'lucide-react';
+import { Package, CheckCircle, Clock, AlertCircle } from '../components/Icons';
 
 export default function AssemblyPage() {
   const [orderStatuses, setOrderStatuses] = useState<Record<string, string>>(

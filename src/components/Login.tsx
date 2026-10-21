@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { User, UserRole } from '../types';
 import { users } from '../data/mockData';
-import { Truck, Shield, Package, ClipboardList } from 'lucide-react';
+import { Truck, Shield, Package, ClipboardList } from './Icons';
 
 interface LoginProps {
   onLogin: (user: User) => void;

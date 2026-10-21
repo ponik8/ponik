@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { products as initialProducts } from '../data/mockData';
 import { Product } from '../types';
-import { Search, Package, AlertTriangle, TrendingDown, Plus, Minus, Edit } from 'lucide-react';
+import { Search, Package, AlertTriangle, TrendingDown, Plus, Minus, Edit } from '../components/Icons';
 
 export default function WarehousePage() {
   const [productsList, setProductsList] = useState<Product[]>(initialProducts);

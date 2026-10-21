@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { orders as initialOrders, statusLabels, statusColors } from '../data/mockData';
 import { User } from '../types';
-import { MapPin, Phone, Clock, Navigation, CheckCircle, Package, AlertCircle } from 'lucide-react';
+import { MapPin, Phone, Clock, Navigation, CheckCircle, Package, AlertCircle } from '../components/Icons';
 
 interface CourierPageProps {
   user: User;

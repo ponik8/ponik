@@ -1,8 +1,9 @@
+import React from 'react';
 import { User } from '../types';
 import { 
   LayoutDashboard, ClipboardList, Truck, Package, 
   Users, LogOut, Warehouse, Settings
-} from 'lucide-react';
+} from './Icons';
 
 interface SidebarProps {
   user: User;

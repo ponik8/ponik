@@ -4,7 +4,7 @@ import { statusLabels, statusColors } from '../data/mockData';
 import { 
   ShoppingCart, Truck, CheckCircle, DollarSign, 
   Package, Users, TrendingUp, Clock
-} from 'lucide-react';
+} from '../components/Icons';
 
 interface DashboardProps {
   user: User;

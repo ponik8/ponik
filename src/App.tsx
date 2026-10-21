@@ -8,7 +8,7 @@ import CourierPage from './pages/CourierPage';
 import WarehousePage from './pages/WarehousePage';
 import AssemblyPage from './pages/AssemblyPage';
 import EmployeesPage from './pages/EmployeesPage';
-import { Menu, X } from 'lucide-react';
+import { Menu, X } from './components/Icons';
 
 function App() {
   const [user, setUser] = useState<User | null>(null);

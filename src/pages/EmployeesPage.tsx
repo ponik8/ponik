@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { users as initialUsers } from '../data/mockData';
 import { User, UserRole } from '../types';
-import { Search, Phone, Mail, Plus, Edit, Trash2, UserCheck } from 'lucide-react';
+import { Search, Phone, Mail, Plus, Edit, Trash2, UserCheck } from '../components/Icons';
 
 export default function EmployeesPage() {
   const [employees, setEmployees] = useState<User[]>(initialUsers);

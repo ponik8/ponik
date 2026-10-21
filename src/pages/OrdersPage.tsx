@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Order, OrderStatus } from '../types';
 import { orders as initialOrders, statusLabels, statusColors, users } from '../data/mockData';
-import { Search, Filter, Eye, Edit, UserPlus, MapPin, Phone } from 'lucide-react';
+import { Search, Filter, Eye, Edit, UserPlus, MapPin, Phone } from '../components/Icons';
 
 interface OrdersPageProps {
   onNavigate: (page: string) => void;
